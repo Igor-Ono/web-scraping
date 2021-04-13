@@ -14,4 +14,4 @@ if __name__ == '__main__':
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'lxml')
     print(soup)
-    print(2)
+    print(3)
